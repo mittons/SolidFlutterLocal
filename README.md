@@ -9,7 +9,7 @@ This project is built on the basic Flutter template code along with the basic te
 ## Reflections:
 Very simple project. Consolidates the core understanding of testing and integration testing I have gained in experimental projects in the past few weeks.
 
-## Notable (Milestone) Resources:
+## Notable (Milestone) Resources Created:
 - Boilerplate Flutter driver code
 - Boilerplate GH Actions workflow to set up Flutter
 - Boilerplate GH Actions workflow to run integration tests for Flutter in Chrome on Ubuntu.

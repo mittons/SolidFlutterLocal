@@ -23,7 +23,10 @@ jobs:
             sudo mv -f ~/chromedriver-linux64 /usr/local/bin/chromedriver
             sudo chown root:root /usr/local/bin/chromedriver
             sudo chmod 0755 /usr/local/bin/chromedriver
-        
+
+        - name: Install Flutter Dependencies
+          run: flutter pub get
+            
         - name: Flutter Unit/Widget Testing
           run: flutter test
 
